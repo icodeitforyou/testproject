@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+      font-family: "Poppins", sans-serif !important;
+}
+.custom_blog-container {
+    max-width: 1310px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.custom-blog-wp {
+    display: flex;
+    gap: 20px;
+}
+.blog_cardwp {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px 10px;
+}
+.blog_card a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.blog_card_image {
+    max-width: 100%;
+    position: relative;
+    padding-bottom: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.blog_card_image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog_sidenav {
+    max-width: 250px;
+    width: 100%;
+}
+.blog_sidenav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.blog_content {
+    max-width: 1440px;
+    width: 100%;
+}
+.blog_card {
+    box-shadow: 0px 0px 5px 0px #00000033;
+    border-radius: 15px;
+    padding: 10px 10px 20px;
+    position: relative;
+}
+.blog_card_heading {
+    font-size: 16px;
+    margin: 0;
+}
+.blog_card_subtext {
+    font-size: 14px;
+    margin: 8px 0 0;
+}
+.blog_card_content {
+    padding: 10px 5px;
+}
+.blog_sidenav ul li a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #654532;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-between;
+}
+.blog_sidenav ul li a .articlecount {
+    color: #000;
+    opacity: 0.6;
+}
+.blog_sidenav>p {
+    font-family: Marcellus,serif;
+    color: #654532;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.blog_card_url {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+  .custom-blog-wp {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}.img_link_blockwp {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 100px;
+}
+.img_link_block a {
+    display: block;
+}
+.img_link_block img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+.img_link_blockwp .img_link_block {
+    border-radius: 5px;
+    overflow: hidden;
+}
+.blog_sidenav,.blog_content {
+    position: sticky;
+    top: 50px;
+}
+body.template-blog {
+    overflow: visible;
+}
+body.template-blog div#shopify-section-header {
+    position: static;
+}
+  .article_tags_wp>a {
+    display: inline-flex;
+    padding: 8px 11px;
+    line-height: 1;
+    background-color: #654532;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 20px;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+}
+.article_tags_wp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;
+}
+.product_container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1470px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.product_left {
+    max-width: 50%;
+    width: 100%;
+}
+.product_right {
+    max-width: 50%;
+    width: 100%;
+}
+.product_imgwp img {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.product_gallary {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.product_thmb_imageswp {
+    max-width: 120px;
+    width: 100%;
+}
+.product_imgwp {max-width: 100%;width: 100%;padding-bottom: 100%;position: relative;border: 1px solid #efebeb;border-radius: 10px;overflow: hidden;}
+.product_mian_imageswp {
+    max-width: calc(100% - 135px);
+    width: 100%;
+}
+.product_content {
+    padding: 50px;
+}
